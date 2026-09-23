@@ -1,0 +1,25 @@
+# Front Door AI Index — open-collective — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: open-collective
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: docs.opencollective.com
+  final_host: docs.opencollective.com
+  ownership: own
+  owner: open-collective
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 1
+  host_score: 1
+  density: 2.49
+  words: 401
+  tiers:
+    agentic: 1
+    core: 0
+    model: 0
+  ambiguous: 0
+  top_terms:
+    llms.txt: 1
