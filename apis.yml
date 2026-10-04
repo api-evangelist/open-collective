@@ -39,7 +39,6 @@ apis:
   - name: Open Collective
     description: "Get Open Collective data"
     humanURL: https://docs.opencollective.com/help/developers/api
-    baseURL: https://docs.opencollective.com/help/developers/api
     tags:
       - Social
     properties:
