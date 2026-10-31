@@ -1,4 +1,4 @@
-# Open Collective (open-collective)
+# Open Collective
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,28 +64,115 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Get Open Collective data
+Open Collective is a legal and financial toolbox for groups: a fundraising, legal status and money management platform that lets communities, open source projects and nonprofits raise and spend money transparently through fiscal hosts. Its public GraphQL API (v2, https://api.opencollective.com/graphql/v2) exposes accounts, collectives, contributions, orders, expenses, transactions, tiers, updates and webhooks, with access via personal tokens or OAuth applications.
 
-**APIs.yml:** [apis.yml](apis.yml)
+**Areas:** Social · Public APIs · Crowdfunding · Fiscal Hosting · Open Source · Nonprofits · Payments · GraphQL
 
-## Type
-- **x-type:** company
-- **x-tier:** 3 (bulk-registered from public-apis)
-- **source:** [public-apis/public-apis](https://github.com/public-apis/public-apis) — category: Social
+## Open Collective on APIs.io
 
-## API
-- **Open Collective** — [Documentation](https://docs.opencollective.com/help/developers/api)
+Everything profiled for Open Collective is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/open-collective/](https://apis.io/providers/open-collective/)** — or go straight to one of the APIs or properties below.
 
-## Tags
-Social, Public APIs
+### APIs (1)
 
-## Notes
-This entry was bulk-registered as part of a public-apis catalog sweep on 2026-05-28.
-A real OpenAPI artifact will be added during a follow-up enrichment pass if the provider publishes one.
+- [Open Collective](https://apis.io/apis/open-collective/open-collective/) — Open Collective GraphQL API v2 for querying and mutating accounts, collectives, contributions, orders, expenses, transactions and related data.
 
-## Timestamps
-- **Created:** 2026-05-28
-- **Modified:** 2026-05-28
+### Published properties
 
-## Maintainers
-- **Kin Lane** — kin@apievangelist.com
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Open Collective Authentication](https://apis.io/security/open-collective/open-collective-authentication/)
+- [Open Collective Domain Security](https://apis.io/security/open-collective/open-collective-domain-security/)
+- [Open Collective Vulnerability Disclosure](https://apis.io/security/open-collective/open-collective-vulnerability-disclosure/)
+
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [Open Collective Scopes](https://apis.io/scopes/open-collective/open-collective-scopes/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Open Collective Plans Pricing](https://apis.io/plans/open-collective/open-collective-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Open Collective Rate Limits](https://apis.io/rate-limits/open-collective/open-collective-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://opencollective.com)
+- [Documentation](https://documentation.opencollective.com)
+- [Getting started](https://documentation.opencollective.com/getting-started/getting-started)
+- [Pricing](https://documentation.opencollective.com/why-open-collective/pricing)
+- [Support](https://opencollective.com/help)
+- [Blog](https://blog.opencollective.com/)
+- [Security](https://github.com/opencollective/opencollective/security/policy)
+- [Terms of service](https://opencollective.com/tos)
+- [Privacy policy](https://opencollective.com/privacypolicy)
+- [GitHub](https://github.com/opencollective)
+- [Status](https://status.opencollective.com/)
+
+## API Evangelist rating
+
+**Kin Score 7.9** — minimal · rubric 0.25.0 · scored 2026-10-23
+
+| Facet | Score |
+|---|---|
+| Discoverability | 46.4 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 10.5 |
+| Developer ergonomics | 11.9 |
+| Access clarity | 0.0 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
+
+**Regulatory alignment 11.8** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/open-collective/](https://apis.io/providers/open-collective/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Open Collective: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/open-collective/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
